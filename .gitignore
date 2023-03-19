@@ -13,5 +13,6 @@ total = float(total_bill)
 per_person = total / people
 
 final_amount = round(per_person, 2)
+final_amount = "{:.2f}".format(per_person)
 
 print(f"The total bill is {total}, and each person will pay ${final_amount}")

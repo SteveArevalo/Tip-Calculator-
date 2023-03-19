@@ -8,7 +8,7 @@ tip = int(input("What percent tip would you like to give 10, 15, or 20?"))
 
 total_bill = tip / 100 * bill + bill
 
-total = float(total_bill)
+total = float(round(total_bill, 2))
 
 per_person = total / people
 
